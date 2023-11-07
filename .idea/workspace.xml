@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c434b92e-7b16-4ff5-90c3-efc1f37d9353" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/CycleElectrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/CycleElectrique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyropode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyropode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyroroue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyroroue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Velo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Velo.java" afterDir="false" />
@@ -43,6 +40,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -86,22 +84,11 @@
       <option name="presentableId" value="Default" />
       <updated>1699298823419</updated>
       <workItem from="1699298824527" duration="933000" />
-      <workItem from="1699344105791" duration="3685000" />
+      <workItem from="1699344105791" duration="7271000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/fr/eniecole/poo/module6/Location.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

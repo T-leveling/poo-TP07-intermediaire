@@ -11,11 +11,11 @@ public class Gyroroue extends CycleElectrique{
 
     @Override
     public String toString() {
-        return super.toString() + "\t" + PRIX_LOCATION + "€/heure";
+        return super.toString() + "\t" + this.getTarifLocationHeure() + "€/heure";
     }
 
     @Override
     public double getTarifLocationHeure() {
-        return super.getTarifLocationHeure();
+        return PRIX_LOCATION;
     }
 }

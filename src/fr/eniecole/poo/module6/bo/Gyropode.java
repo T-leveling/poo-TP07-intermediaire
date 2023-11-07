@@ -14,11 +14,11 @@ public class Gyropode extends CycleElectrique{
 
     @Override
     public double getTarifLocationHeure() {
-        return super.getTarifLocationHeure();
+        return PRIX_LOCATION;
     }
 
     @Override
     public String toString() {
-        return super.toString() + " [" + this.tailleMinCm + "cm min] " + PRIX_LOCATION +"€/heure";
+        return super.toString() + " [" + this.tailleMinCm + "cm min] " + this.getTarifLocationHeure() +"€/heure";
     }
 }
