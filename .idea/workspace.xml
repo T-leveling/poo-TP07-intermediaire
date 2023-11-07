@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c434b92e-7b16-4ff5-90c3-efc1f37d9353" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyropode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyropode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyroroue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Gyroroue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Velo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eniecole/poo/module6/bo/Velo.java" afterDir="false" />
-    </list>
+    <list default="true" id="c434b92e-7b16-4ff5-90c3-efc1f37d9353" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699298823419</updated>
       <workItem from="1699298824527" duration="933000" />
-      <workItem from="1699344105791" duration="7271000" />
+      <workItem from="1699344105791" duration="7755000" />
     </task>
     <servers />
   </component>

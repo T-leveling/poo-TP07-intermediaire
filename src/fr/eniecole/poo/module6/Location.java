@@ -63,14 +63,16 @@ public class Location {
     }
 
     private static void sortByPrice(ArrayList<Cycle> cycles) {
-        Collections.sort(cycles, Comparator.comparing(Cycle::getTarifLocationHeure));
+        Comparator<Cycle> comparator = Comparator.comparing(Cycle::getTarifLocationHeure);
+        Collections.sort(cycles, comparator.reversed());
         for(Cycle cycle: cycles){
             System.out.println(cycle);
         }
     }
 
     private static void sortByDateAchat(ArrayList<Cycle> cycles) {
-        Collections.sort(cycles, Comparator.comparing(Cycle::getDateAchat));
+        Comparator<Cycle> comparator = Comparator.comparing(Cycle::getDateAchat);
+        Collections.sort(cycles, comparator.reversed());
         for(Cycle cycle: cycles){
             System.out.println(cycle);
         }
