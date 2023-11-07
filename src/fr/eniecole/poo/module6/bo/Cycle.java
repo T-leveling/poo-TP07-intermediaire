@@ -1,12 +1,13 @@
 package fr.eniecole.poo.module6.bo;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public abstract class Cycle {
 
-   private LocalDate dateAchat;
-   String marque;
-   String modele;
+    private LocalDate dateAchat;
+    String marque;
+    String modele;
 
     public Cycle(LocalDate dateAchat, String marque, String modele) {
         this.dateAchat = dateAchat;
@@ -14,18 +15,17 @@ public abstract class Cycle {
         this.modele = modele;
     }
 
-    public void age(){
+    public abstract int age() ;
 
+    public LocalDate getDateAchat() {
+        return dateAchat;
     }
 
     public abstract double getTarifLocationHeure();
 
     @Override
     public String toString() {
-        return "Cycle{" +
-                "dateAchat=" + dateAchat +
-                ", marque='" + marque + '\'' +
-                ", modele='" + modele + '\'' +
-                '}';
+        return " - " +getClass().getSimpleName() + " " + this.marque + " " + this.modele +
+                " " + dateAchat;
     }
 }
