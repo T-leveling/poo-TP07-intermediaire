@@ -2,12 +2,12 @@ package fr.eniecole.poo.module6.bo;
 
 import java.time.LocalDate;
 
-public class Gyropode extends CycleElectrique{
+public class GyroPode extends CycleElectrique{
 
     private int tailleMinCm;
     static final double PRIX_LOCATION = 29.9;
 
-    public Gyropode(LocalDate dateAchat, String marque, String modele, int autonomieKm, int tailleMinCm) {
+    public GyroPode(LocalDate dateAchat, String marque, String modele, int autonomieKm, int tailleMinCm) {
         super(dateAchat, marque, modele, autonomieKm);
         this.tailleMinCm = tailleMinCm;
     }
@@ -19,6 +19,5 @@ public class Gyropode extends CycleElectrique{
 
     @Override
     public String toString() {
-        return super.toString() + " [" + this.tailleMinCm + "cm min] " + this.getTarifLocationHeure() +"€/heure";
-    }
+        return formatInfo( super.toString() + " [" + tailleMinCm / 100 + "m" + String.format("%02d",tailleMinCm % 100) + " min]");    }
 }

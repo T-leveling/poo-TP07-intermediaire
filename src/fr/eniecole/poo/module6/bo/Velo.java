@@ -25,6 +25,5 @@ public class Velo extends Cycle{
 
     @Override
     public String toString() {
-        return super.toString() + " (" + age() + "ans) " + this.nbVitesses + " vitesses" + "\t" + this.getTarifLocationHeure() + "€/heure";
-    }
+        return formatInfo(super.toString() + " " + nbVitesses + " vitesses");    }
 }

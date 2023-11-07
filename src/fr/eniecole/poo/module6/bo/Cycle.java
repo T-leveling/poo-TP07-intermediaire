@@ -15,6 +15,12 @@ public abstract class Cycle {
         this.modele = modele;
     }
 
+    protected String formatInfo(String info){
+        var right = String.format("%.2f€/heure", getTarifLocationHeure());
+        var buffer = 100 - (info.length() + right.length());
+        return info + " ".repeat(buffer) + right;
+    }
+
     public abstract int age() ;
 
     public LocalDate getDateAchat() {
@@ -25,7 +31,6 @@ public abstract class Cycle {
 
     @Override
     public String toString() {
-        return " - " +getClass().getSimpleName() + " " + this.marque + " " + this.modele +
-                " " + dateAchat;
+            return "- " + getClass().getSimpleName() + " " + marque + " " + modele + " (" + age() + "an)";
     }
 }

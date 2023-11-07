@@ -2,10 +2,8 @@ package fr.eniecole.poo.module6;
 
 import fr.eniecole.poo.module6.bo.*;
 
-import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 
@@ -20,13 +18,13 @@ public class Location {
         Velo btwin = new Velo(LocalDate.of(2018, 4, 9), "Btwin", "riverside", 10);
         cycles.add(btwin);
 
-        Gyropode segway = new Gyropode(LocalDate.of(2018, 6, 5), "Segway", "Ninebot Elite", 40, 150);
+        GyroPode segway = new GyroPode(LocalDate.of(2018, 6, 5), "Segway", "Ninebot Elite", 40, 150);
         cycles.add(segway);
-        Gyropode weebot = new Gyropode(LocalDate.of(2017, 5, 2), "Weebot", "Echo", 35, 160);
+        GyroPode weebot = new GyroPode(LocalDate.of(2017, 5, 2), "Weebot", "Echo", 35, 160);
         cycles.add(weebot);
-        Gyroroue immotion = new Gyroroue(LocalDate.of(2018, 3, 25), "Immotion", "v8", 40);
+        GyroRoue immotion = new GyroRoue(LocalDate.of(2018, 3, 25), "Immotion", "v8", 40);
         cycles.add(immotion);
-        Gyroroue segway2 = new Gyroroue(LocalDate.of(2018, 3, 25), "Segway", "Ninebot One E+", 30);
+        GyroRoue segway2 = new GyroRoue(LocalDate.of(2018, 3, 25), "Segway", "Ninebot One E+", 30);
         cycles.add(segway2);
 
         for (Cycle cycle : cycles) {
